@@ -8,8 +8,4 @@ Presenting Yash12007 Studio, A studio focused on creating high-quality 3D enviro
 - High-quality assets according to the needs of your projects - We take the responsibility of creating assets by understanding the project needs, whether you are planning to create a Game or a movie scene.
 - Each asset will have named components and easy-to-handle configurations
 - Rendering will be done on specific requests
-<<<<<<< HEAD
 - We serve all kinds of file formats according to the needs of the project and specified requests
-=======
-- We serve all kinds of file formats according to the needs of the project and specified requests
->>>>>>> f980c41 (Update: sync local changes)
