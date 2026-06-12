@@ -29,7 +29,7 @@
         ::-webkit-scrollbar{width: 0px; height: 0px;}
         html{scroll-behavior: smooth;}
         body{
-            background: url("CARBG.png") no-repeat center center fixed;
+            background: linear-gradient(120deg, #000, #022);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -40,7 +40,7 @@
             margin: 0px;
             padding: 0px;
             font-family: 'Jura', sans-serif;
-        }nav{
+        }body.loaded{background: url("CARBG.png") no-repeat center center fixed;background-position: center;background-repeat: no-repeat;background-size: cover;background-attachment: fixed;}nav{
             position: fixed;
             top: 0px;
             left: 0px;
@@ -280,6 +280,7 @@
         </div>
         <p>&copy; 2026 Yash12007. All Rights Reserved.</p>
     </footer>
+    <script>window.addEventListener("load", () => {document.querySelector("body").classList.add("loaded");});</script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"9566e86f01df45009b8dc922ac29e934","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
